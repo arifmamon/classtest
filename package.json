@@ -1,0 +1,19 @@
+{
+  "name": "classtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rate.js",
+  "scripts": {
+    "test": "node rate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifmamon/classtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifmamon/classtest/issues"
+  },
+  "homepage": "https://github.com/arifmamon/classtest#readme"
+}
