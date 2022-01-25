@@ -14,13 +14,13 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
 
 
-  await page.goto('https://polls.animecorner.me/vote/yearly/109/',{waitUntil: 'networkidle2'});
+  await page.goto('https://polls.animecorner.me/vote/yearly/109/');
   //await page.click('#search-story');
   //await page.type('#search-story', 'Kyouhan');
   //await page.keyboard.press('Enter', { delay: 1000 });
   //await page.keyboard.press('ArrowDown', { delay: 3000 });
   //await page.click('.item-title');
-  await page.waitForTimeout(2000);
+  await page.waitForTimeout(5000);
   
   //const id = await page.$('.col-lg-6' );
 		
