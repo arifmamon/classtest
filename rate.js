@@ -15,7 +15,7 @@ const puppeteer = require('puppeteer');
   const url = 'https://readmanganato.com/manga-ao977497/';
   await page.goto(url);
   await page.waitForTimeout(2000);
-  await page.click('.rate_star');
+  await page.click('.rate_row');
   await page.screenshot({ path: 'example.png' ,fullPage: true});
   const name = await page.$eval('.story-info-right > h1 ', element => element.textContent);
   await page.waitForTimeout(1000);
