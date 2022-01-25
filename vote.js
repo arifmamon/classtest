@@ -3,11 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const loop = 500;
   for (let i = 0; i < loop; i++) {
-  const browser = await puppeteer.launch({
-			defaultViewport: null,
-			    
-
-		});
+  const browser = await puppeteer.launch();
 
   const page = await browser.newPage();
 
