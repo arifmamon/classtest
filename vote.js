@@ -5,7 +5,6 @@ const puppeteer = require('puppeteer');
   for (let i = 0; i < loop; i++) {
   const browser = await puppeteer.launch({
 	  defaultViewport: null,
-	  headless: false,
         args: [
             '--no-sandbox',
             '--disable-setuid-sandbox'
