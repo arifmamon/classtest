@@ -4,7 +4,7 @@
   "description": "",
   "main": "rate.js",
   "scripts": {
-    "test": "node rate.js"
+    "start": "node rate.js"
   },
   "repository": {
     "type": "git",
