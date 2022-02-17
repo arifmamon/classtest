@@ -16,7 +16,7 @@ const puppeteer = require('puppeteer');
   await page.goto(url,{waitUntil: 'load', timeout: 0});
   await page.waitForTimeout(2000);
   await page.click('.rate_row');
-  await page.screenshot({ path: 'example.png' ,fullPage: true});
+  //await page.screenshot({ path: 'example.png' ,fullPage: true});
   //const name = await page.$eval('.story-info-right > h1 ', element => element.textContent);
   await page.waitForTimeout(1000);
   
