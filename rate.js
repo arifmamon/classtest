@@ -12,7 +12,8 @@ const puppeteer = require('puppeteer');
 
   const page = await browser.newPage();
   const kanojo = 'https://readmanganato.com/manga-ao977497/'
-  const url = 'https://readmanganato.com/manga-ao977497';
+  
+  const url = 'https://readmanganato.com/manga-dg980989';
   await page.goto(url,{waitUntil: 'load', timeout: 0});
   await page.waitForTimeout(2000);
   await page.click('.rate_row');
