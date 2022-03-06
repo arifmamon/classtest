@@ -3,7 +3,12 @@ const puppeteer = require('puppeteer');
 (async () => {
   const loop = 2000;
   for (let i = 0; i < loop; i++) {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox'
+    ]
+});
 
   const page = await browser.newPage();
     // 15 people rated
