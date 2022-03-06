@@ -17,13 +17,13 @@ const puppeteer = require('puppeteer');
   await page.waitForTimeout(2000);
  // await page.click('.btn-adult-confirm');
   await page.click('.ratings_stars ');
-  await page.screenshot({ path: 'example.png' ,fullPage: true});
+ //await page.screenshot({ path: 'example.png' ,fullPage: true});
   //const name = await page.$eval('.post-title > h1 ', element => element.textContent);
   await page.waitForTimeout(1000);
-  await page.screenshot({ path: 'rate.png' ,fullPage: true});
+ // await page.screenshot({ path: 'rate.png' ,fullPage: true});
 
   
   await browser.close();
-  console.log( name ,"Rated " , i , "Times");
+  console.log("Rated " , i , "Times");
   }
 })(); 
