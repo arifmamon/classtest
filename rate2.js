@@ -7,11 +7,7 @@ const puppeteer = require('puppeteer');
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
-      '--disable-infobars',
-      '--window-position=0,0',
-      '--ignore-certifcate-errors',
-      '--ignore-certifcate-errors-spki-list',
-      '--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+      
     ]
 });
 
