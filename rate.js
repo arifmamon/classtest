@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const loop = 10000;
+  const loop = 1000;
   for (let i = 0; i < loop; i++) {
   const browser = await puppeteer.launch({
         args: [
@@ -13,7 +13,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   const kanojo = 'https://readmanganato.com/manga-ao977497/'
   
-  const url = 'https://readmanganato.com/manga-ao977497';
+  const url = 'https://readmanganato.com/manga-gg984263';
   await page.goto(url,{waitUntil: 'load', timeout: 0});
   await page.waitForTimeout(2000);
   await page.click('.rate_row');
