@@ -11,9 +11,9 @@ const puppeteer = require('puppeteer');
     });
 
   const page = await browser.newPage();
-  const kanojo = 'https://readmanganato.com/manga-ao977497/'
-  
-  const url = 'https://readmanganato.com/manga-gg984263';
+  const kanojo = 'https://readmanganato.com/manga-ao977497/';
+  const juu = 'https://readmanganato.com/manga-jt986528';
+  const url = 'https://readmanganato.com/manga-jt986528';
   await page.goto(url,{waitUntil: 'load', timeout: 0});
   await page.waitForTimeout(2000);
   await page.click('.rate_row');
