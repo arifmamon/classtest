@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const loop = 1000;
+  const loop = 3000;
   for (let i = 0; i < loop; i++) {
   const browser = await puppeteer.launch({
         args: [
