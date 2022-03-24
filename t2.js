@@ -28,9 +28,9 @@ const puppeteer = require('puppeteer');
 
   await page.waitForTimeout(5000);
  // await page.click('.ratings_stars');
- await page.screenshot({ path: 'toon.png' ,fullPage: true});
+ //await page.screenshot({ path: 'toon.png' ,fullPage: true});
   //const name = await page.$eval('.post-title > h1 ', element => element.textContent);
-  await page.waitForTimeout(1000);
+ // await page.waitForTimeout(1000);
  // await page.screenshot({ path: 'rate.png' ,fullPage: true});
 
   
