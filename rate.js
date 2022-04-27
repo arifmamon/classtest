@@ -15,7 +15,7 @@ const puppeteer = require('puppeteer');
   const juu = 'https://readmanganato.com/manga-jt986528';
   const mount = 'https://readmanganato.com/manga-lf988940';
    const ishaved = 'https://readmanganato.com/manga-da980509';
-  const url = 'https://readmanganato.com/manga-ns990701';
+  const url = 'https://readmanganato.com/manga-lf988940';
   await page.goto(url,{waitUntil: 'load', timeout: 0});
   await page.waitForTimeout(2000);
   await page.click('.rate_row');
